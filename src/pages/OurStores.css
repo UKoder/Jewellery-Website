@@ -1,0 +1,31 @@
+.stores-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.store-select {
+  background: var(--color-bg-secondary);
+  color: var(--color-text);
+  border: 1px solid var(--glass-border);
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  outline: none;
+  min-width: 140px;
+}
+
+.store-select:focus {
+  border-color: var(--color-gold);
+}
+
+.store-select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .store-locator-panel {
+    flex-direction: column !important;
+  }
+}

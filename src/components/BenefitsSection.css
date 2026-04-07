@@ -1,0 +1,127 @@
+.benefits-section {
+  padding: 8rem 2rem;
+  background-color: var(--color-bg);
+  position: relative;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefits-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.benefits-title {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.benefit-icon {
+  color: var(--color-gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.benefit-item p {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* CTA Panel */
+.careers-cta {
+  padding: 3rem;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.careers-cta::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, transparent 0%, transparent 40%, rgba(212, 175, 55, 0.2) 50%, transparent 60%, transparent 100%);
+  animation: rotate 10s linear infinite;
+  z-index: 0;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.cta-content h3 {
+  font-size: 2rem;
+  color: var(--color-gold);
+}
+
+.cta-content p {
+  color: var(--color-text);
+  font-size: 1.1rem;
+}
+
+.cta-highlight {
+  font-style: italic;
+  color: var(--color-gold-light) !important;
+  opacity: 0.9;
+}
+
+.email-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+}
+
+.email-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.6);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 968px) {
+  .benefits-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .careers-cta {
+    padding: 2.5rem 1.5rem;
+  }
+}

@@ -1,0 +1,141 @@
+.company-page {
+  padding-top: 80px; /* Offset for navbar */
+}
+
+.page-header {
+  padding: 6rem 2rem 3rem;
+  background-color: var(--color-bg);
+}
+
+.page-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.25rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Vision Mission */
+.vision-mission-section {
+  padding: 4rem 0;
+  background-color: var(--color-bg-secondary);
+}
+
+.vm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.vm-card {
+  padding: 3rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.vm-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--color-gold);
+  margin-bottom: 1.5rem;
+}
+
+.vm-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.vm-card p {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+/* Core Values */
+.core-values-section {
+  padding: 6rem 0;
+}
+
+.values-grid {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.value-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+}
+
+.value-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--color-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.value-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.value-item p {
+  color: var(--color-text-muted);
+}
+
+/* CSR */
+.csr-section {
+  padding: 4rem 0 8rem;
+}
+
+.csr-content {
+  padding: 4rem;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.csr-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.csr-text h2 {
+  font-size: 2.5rem;
+}
+
+.csr-text p {
+  color: var(--color-text);
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .vm-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,172 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>Our stores</title>
+        <link rel="shortcut icon" href="ico/favicon.ico"></link>
+	<link rel="stylesheet" href=" ourstores.css" type="text/css">
+        <script type="text/javascript" src=" ourstore.js"></script>
+
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/site.css" rel="stylesheet" type="text/css">
+         <script src="https://code.jquery.com/jquery-latest.js"></script>
+	<!-- Script for Blink text -->
+	<!-- <script src=" blink.js.download"></script> -->
+        <script>
+          $(document).ready(function(){
+             setInterval(function(){
+                 $("#showgold").load("data.php");
+             },3000);
+              
+          }) ;
+        </script>
+	
+</head>
+<body>
+	<div id="wrapper_header">
+		<div id="header">
+			<div id="header_top">
+				<blockquote>
+					<blockquote>
+						<a href="#"><div id="Chemmanur"></div></a>
+						<form id="form1" name="form1" method="post" action="">
+							
+						</form>
+					</blockquote>
+				</blockquote>
+				<div id="mainHeader"></div>
+			</div>			
+			<div id="header_menu">
+				<ul>
+                                    <li><a href="index.php"> Home </a></li>
+                                    <li><a href="company_origin.php"> Company </a></li>
+                                    <li><a href="groupcompany.php"> Group of company </a></li>
+                                    <li><a href="virtuemart.php"> Online Shopping </a></li>
+                                    <li><a href="careers.php"> Careers </a></li>
+                                    <li><a href="ourstores.php" style='background: url(images/menu_hover.jpg);
+                                        background-repeat: repeat-x;color:#FFF;'> Our Stores </a></li>
+                                    <li><a href="contact.php"> Contact Us </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="wrapper_news_update" style="margin-bottom: 20px;">
+    <div id="news_update" style="margin-bottom: 20px; ">
+        <div id="news" style="margin-bottom: 10px; "></div>
+        <div id="news_content" style="margin-bottom: 10px; border-right: 2px solid white;">
+            
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+    </head>
+    <body>
+            </body>
+</html>
+<marquee behavior='scroll' direction='up' height='70px' scrollamount='1' onmouseover='this.stop();' onmouseout='this.start();'><img src="uploads/arrow-list.png"> <a href="onamcelebration.php?id=56" style="text-decoration:none;">  <span style="color:black; text-transform:capitalize;font-size:10pt;text-decoration:none">Importent Notice</span></a><br></marquee>        </div>
+        
+        <div id="gold_price_updates" style="margin-bottom: 20px;">
+            <div style="margin-left:5px; margin-bottom: 5px;">Our current Gold Rate</div>
+            <div id="showgold" style="padding-left:5px;font-size:14px;font-weight:bold;margin-bottom: 5px;"></div>
+            <div id="showdate" style="margin-left:5px;"> <!-- as on <b></b--> for 22Kt 916 melting purity </div>
+        </div>
+			
+        
+        <div style="margin-bottom: 20px; height: 82px;
+	background-image: url(../images/price_updates_bg.png);
+	background-repeat: repeat-x;
+	float: left;
+	width: 180px;
+	font-size: 10px;
+	line-height: 18px;
+	padding-top: 8px;
+	padding-left: 5px;
+	color:#000000;">
+            <a href="goldsaverapp.php" style="color:#000000;"><span style="float:left;text-decoration:underline;font-size:14px; color:red;">Click here for</span><br /><strong style="color: red;font-size:14px;">Chemmanur Gold Saver App</strong></a>
+        </div>
+		
+    </div>
+</div>
+	
+	<div id="wrapper_banner_sub">
+				<div id="banner_sub">
+					<div id="banner_images_sub"></div>
+				</div>
+			</div>
+    
+    <div id="wrapper_content_sub">
+						<div id="content_sub">
+				<div id="content_sub_frame">				
+				<div id="breadcrumbs"><span class="breadcrumbs pathway">
+                                        <a href="index.php" class="pathway">Home</a> <img src="images/arrow.png" alt=""></img> Our Stores</span> 
+                        </div>
+																			
+	
+											<!--div style="width:237;">&nbsp;</div-->
+					<!--div style="width:237;">&nbsp;</div-->
+   						<div id="content_sub_left">
+					
+	
+		<form name="form_1" onsubmit="return false;">
+			<div class="storesMain">
+				<div class="corporateMain">
+					<div class="corporateInner">
+						<span style="font-size:13px;color: #804c00;"><b>Chemmanur Corporate Office</b></span><br>
+						G2-19/1, Karnataka Central Diocesan Complex,<br> 3rd Cross, Mission Road,<br> CSI Compound <br>(behind Chemmanur Jewellers showroom, J.C Road),<br>Bangalore - 560027<br>Karnataka, India<br>
+						Ph: 22221928 / 22238539 / 32904080 <br> Fax: 22210559
+                                                        <br>Email: <a style="text-decoration:none;color:#000000;" href="mailto:corporateoffice@chemmanur.com"><font color="#000000;">corporateoffice@chemmanur.com</font></a>
+					</div>
+				</div>
+				<div class="storeLocateMain" style="margin-top">
+					<div>
+						<span style="font-size:13px; color: #804c00;"><b>Global Stores</b></span><br>
+                                                    Please <a href="chemmanurglobal.php">click here</a> to locate our global stores.
+					</div>
+					<div style="margin-top:3px;">
+						<span style="font-size:13px; color: #804c00;"><b>Store Locator</b></span><br>
+						Please select our stores : 
+						<select name="select_1" onchange="switch_select();">
+							<option>--Select State --</option>
+							<option>Karnataka</option>
+							<option>Kerala</option>
+							<option>TamilNadu</option>
+						</select>
+						<select id="select_2" name="select_2" onchange="switch_text();">
+							<option>-- Please Select --</option>							
+						</select><br>
+						<div id="textarea_2" class="storeLabel"></div>
+					</div>
+				</div> 	
+			</div>
+		</form>	
+					</div>							
+				</div>
+			</div>
+		</div>		
+			<div class="clear" id="wrapper_footer">			
+			<div id="footer">				
+				<div id="footer_left">
+                                   <span class="footerc">
+                                                                                
+                                        
+                                        Chemmanur Jewellers, Copyright © 2026.
+                                        
+                                    </span>
+                                </div>
+                            <div id="footer_right"><table width="100%" border="0" cellpadding="0" cellspacing="1"><tbody><tr><td nowrap="nowrap"><a href="index.php" class="mainlevel">Home</a><span class="mainlevel"> | </span><a href="virtuemart.php" class="mainlevel">Online Shop</a><span class="mainlevel"> | </span><a href="termsofuse.php" class="mainlevel">Terms of Use</a><span class="mainlevel"> | </span><a href="privacypolicy.php" class="mainlevel">Privacy Policy</a><span class="mainlevel"> | </span><a href="legaldisclaimer.php" class="mainlevel">Legal Disclaimer</a><span class="mainlevel"> | </span><a href="#" class="mainlevel">Site Map</a><span class="mainlevel"> | </span><a href="careers.php" class="mainlevel">Careers</a><span class="mainlevel"> | </span><a href="goldfaq.php" class="mainlevel">Online Shopping faqs</a></td></tr></tbody></table></div>
+			</div>
+                    <div style="text-align:center;"><img src="images/logo_s.jpg"></div>
+			<div class="footerDesc">
+				<i>Only companies with the above mentioned registered logo belong to Chemmanur group of companies</i>
+			</div>
+		</div>
+	
+		
+
+</body></html>

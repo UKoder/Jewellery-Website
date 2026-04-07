@@ -1,0 +1,141 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-hero {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.home-hero-text {
+  max-width: 800px;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.home-hero-text h1 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.home-hero-text p {
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Highlights Section */
+.highlights-section {
+  padding: 6rem 2rem;
+  background-color: var(--color-bg-secondary);
+}
+
+.highlights-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.highlight-column {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.highlight-column:hover {
+  transform: translateY(-5px);
+}
+
+.uppercase-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  min-height: 2.5rem;
+}
+
+.highlight-content {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.highlight-img-placeholder {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--color-bg);
+  border: 1px solid var(--glass-border);
+  padding: 0.5rem;
+}
+
+.highlight-img-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.highlight-text {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.more-btn {
+  display: inline-block;
+  align-self: flex-end;
+  padding: 0.4rem 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: opacity 0.3s ease;
+  color: var(--color-bg);
+}
+
+.more-btn:hover {
+  opacity: 0.9;
+  color: var(--color-bg);
+}
+
+@media (max-width: 1024px) {
+  .highlights-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .home-hero-text h1 {
+    font-size: 3rem;
+  }
+  .highlights-container {
+    grid-template-columns: 1fr;
+  }
+  .hero-actions {
+    flex-direction: column;
+  }
+}

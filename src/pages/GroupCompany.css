@@ -1,0 +1,58 @@
+.group-page .max-w-800 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.group-grid-section {
+  padding: 4rem 0 8rem;
+}
+
+.companies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.company-card {
+  padding: 2.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+}
+
+.company-card-icon {
+  margin-bottom: 1.5rem;
+  color: var(--color-gold);
+}
+
+.company-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Playfair Display', serif;
+  color: var(--color-text);
+}
+
+.company-card p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.hover-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(90deg, var(--color-gold-light), var(--color-gold-dark));
+  transition: width 0.3s ease;
+}
+
+.company-card:hover .hover-line {
+  width: 100%;
+}
