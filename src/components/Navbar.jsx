@@ -39,7 +39,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled glass-panel' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <Gem className="logo-icon" />
+          <img src="./logo.png" alt="Chemmanur Logo" className="logo-icon" style={{ height: '36px', width: 'auto', marginRight: '0.5rem' }} />
           <span className="heading-font gold-gradient-text">Chemmanur</span>
         </Link>
 

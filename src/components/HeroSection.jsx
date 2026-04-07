@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './HeroSection.css';
 
 const HeroSection = () => {
@@ -34,12 +35,12 @@ const HeroSection = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
-            <a href="#openings" className="btn-primary">
+            <Link to="/openings" className="btn-primary">
               View Openings <ChevronRight size={18} />
-            </a>
-            <a href="#about" className="btn-outline">
+            </Link>
+            <Link to="/company" className="btn-outline">
               Discover Our Legacy
-            </a>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

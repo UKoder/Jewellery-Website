@@ -31,7 +31,7 @@ const ContactUs = () => {
               </div>
               <div>
                 <h4>Corporate Office</h4>
-                <p className="text-muted">Chemmanur International Jewellers<br/>Thrissur, Kerala</p>
+                <p className="text-muted">G2-19/1, Karnataka Central Diocesan Complex,<br/>3rd Cross, Mission Road, CSI Compound<br/>Bangalore - 560027</p>
               </div>
             </div>
 
@@ -40,8 +40,8 @@ const ContactUs = () => {
                 <Phone size={24} />
               </div>
               <div>
-                <h4>Phone</h4>
-                <p className="text-muted">+91 487 123 4567<br/>Toll Free: 1800 123 456</p>
+                <h4>Phone & Fax</h4>
+                <p className="text-muted">Phone: 080-22221928, 22238539<br/>Fax: 22210559</p>
               </div>
             </div>
 

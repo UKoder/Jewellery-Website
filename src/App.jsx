@@ -14,6 +14,7 @@ import ChairmanMessage from './pages/ChairmanMessage';
 import MDMessage from './pages/MDMessage';
 import Schemes from './pages/Schemes';
 import SubsidiaryPage from './pages/SubsidiaryPage';
+import Openings from './pages/Openings';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/shop" element={<OnlineShopping />} />
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/stores" element={<OurStores />} />
+          <Route path="/openings" element={<Openings />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/chairman" element={<ChairmanMessage />} />
           <Route path="/md" element={<MDMessage />} />

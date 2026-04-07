@@ -20,7 +20,7 @@ const Footer = () => {
         
         <div className="footer-brand">
           <Link to="/" className="footer-logo" style={{ textDecoration: 'none' }}>
-            <Gem className="footer-logo-icon" size={32} />
+            <img src="./logo.png" alt="Chemmanur Logo" className="footer-logo-icon" style={{ height: '32px', width: 'auto', marginRight: '0.5rem' }} />
             <span className="heading-font gold-gradient-text">Chemmanur</span>
           </Link>
           <p className="footer-tagline">

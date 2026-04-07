@@ -44,8 +44,8 @@ const Home = () => {
           >
             <h3 className="gold-gradient-text uppercase-title">Chairman's Message</h3>
             <div className="highlight-content">
-              <div className="highlight-img-placeholder">
-                <img src="./logo.png" alt="Chairman" />
+              <div className="highlight-image-wrapper">
+                <img src="./chairman.jpg" alt="Chairman" />
               </div>
               <p className="highlight-text">A company, its culture and its character are all a reflection of its founder.</p>
             </div>
@@ -61,8 +61,8 @@ const Home = () => {
           >
             <h3 className="gold-gradient-text uppercase-title">MD's Message</h3>
             <div className="highlight-content">
-              <div className="highlight-img-placeholder">
-                <img src="./logo.png" alt="MD" />
+              <div className="highlight-image-wrapper">
+                <img src="./md.jpg" alt="MD" />
               </div>
               <p className="highlight-text">What could be a better testimony to our excellence than a tradition</p>
             </div>
@@ -78,8 +78,8 @@ const Home = () => {
           >
             <h3 className="gold-gradient-text uppercase-title">Careers @ Chemmanur</h3>
             <div className="highlight-content">
-              <div className="highlight-img-placeholder">
-                <img src="./logo.png" alt="Careers" />
+              <div className="highlight-image-wrapper">
+                <img src="./careers.jpg" alt="Careers" />
               </div>
               <p className="highlight-text">Our work culture is totally driven by the love for gold. You will find that our people</p>
             </div>
@@ -95,8 +95,8 @@ const Home = () => {
           >
             <h3 className="gold-gradient-text uppercase-title">Schemes @ Chemmanur</h3>
             <div className="highlight-content">
-              <div className="highlight-img-placeholder">
-                <img src="./logo.png" alt="Schemes" />
+              <div className="highlight-image-wrapper">
+                <img src="./schemes.jpg" alt="Schemes" />
               </div>
               <p className="highlight-text">Gold Saving Schemes from Chemmanur - Investments that are worth your money</p>
             </div>
