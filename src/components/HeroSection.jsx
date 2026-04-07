@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="hero-bg-overlay"></div>
       
       {/* Fallback image if dynamic one doesn't load */}
-      <img src="/jewelry_bg_demo.png" alt="Jewelry Background" className="hero-bg-image" />
+      <img src="./jewelry_bg_demo.png" alt="Jewelry Background" className="hero-bg-image" />
 
       <div className="hero-content">
         <motion.div
